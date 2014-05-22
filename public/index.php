@@ -41,6 +41,6 @@ $app->get('/add-ons', function() use ($app) {
 $app->get('/gh-deploy', function() use ($app) {
     exec('git pull', $output, $retval);
     $app->stop();
-})->name('add-ons');
+});
 
 $app->run();
