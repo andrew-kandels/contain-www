@@ -1,0 +1,20 @@
+{
+    "name": "andrew-kandels/contain-www",
+    "description": "Source code for the contain-php.org website.",
+    "license": "BSD-2",
+    "homepage": "http://www.contain-project.org",
+    "require": {
+        "php": ">=5.3",
+        "akandels/contain": "dev-master",
+        "akandels/contain-mapper": "dev-master",
+        "slim/slim": "2.*",
+        "michelf/php-markdown": "1.4.*@dev",
+        "twbs/bootstrap-sass": "3.1.*@dev",
+        "petebrowne/slim-layout-view": "0.3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Application": "src"
+        }
+    }
+}
