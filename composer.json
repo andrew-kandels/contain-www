@@ -10,7 +10,8 @@
         "slim/slim": "2.*",
         "michelf/php-markdown": "1.4.*@dev",
         "twbs/bootstrap-sass": "3.1.*@dev",
-        "petebrowne/slim-layout-view": "0.3.*"
+        "petebrowne/slim-layout-view": "0.3.*",
+        "michelf/php-smartypants": "1.6.*@dev"
     },
     "autoload": {
         "psr-0": {

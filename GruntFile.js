@@ -6,7 +6,10 @@ module.exports = function(grunt) {
           dev: {
             options: {
                 style: 'expanded',
-                compass: true
+                compass: true,
+                // sourcemap: true,
+                lineNumbers: true,
+                loadPath: 'vendor/twbs/bootstrap-sass/vendor/assets/stylesheets'
             },
             files: {
                 'public/css/style.css': 'sass/style.scss'
@@ -30,7 +33,21 @@ module.exports = function(grunt) {
         },
         uglify: {
             build: {
-                src: 'js/*.js',
+                src: [
+                    'js/jquery-1.11.1.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/affix.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/alert.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/button.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/carousel.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/dropdown.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/tab.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/scrollspy.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/tooltip.js',
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/popover.js'
+                ],
                 dest: 'public/js/script.min.js'
             }
         }
