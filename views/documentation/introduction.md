@@ -6,23 +6,27 @@ Entity Models
 An entity model is a container for one or more pieces of data that describe something 
 in your application. For example, a __User__ model might be described as:
 
-    $user = array(
-        'firstName' => 'Andrew',
-        'lastName'  => 'Kandels',
-    );
+~~~ .language-php
+$user = array(
+    'firstName' => 'Andrew',
+    'lastName'  => 'Kandels',
+);
+~~~
 
 Say you develop a service to create a user. There are two common ways to pass your 
 model to that service.
 
 Passing Arrays
 --------------
-    class Service {
-        public function addUser(array $data) {
-            ...
-        }
+~~~ .language-php
+class Service {
+    public function addUser(array $data) {
+        ...
     }
+}
 
-    $service->addUser($user);
+$service->addUser($user);
+~~~
 
 The problem with this approach is that the __addUser__ method is only guaranteed to 
 receive an array of data. It could be passed an empty array, an array with typos for
@@ -31,13 +35,15 @@ or last name indexes.
 
 Placeholder Parameters
 ----------------------
-    class Service {
-        public function addUser($firstName, $lastName) {
-            ...
-        }
+~~~ .language-php
+class Service {
+    public function addUser($firstName, $lastName) {
+        ...
     }
+}
 
-    $service->addUser('Andrew', 'Kandels');
+$service->addUser('Andrew', 'Kandels');
+~~~
 
 The first problem with this approach is when you start creating larger models the 
 exact position of each parameter becomes difficult to remember. PHP also doesn't 
@@ -53,18 +59,20 @@ Meet Contain
 Contain aims to solve this problem by creating lightweight entity models that you pass
 between services, controllers, views and just about anywhere else in your application:
 
-    class Service {
-        public function addUser(User $user) {
-            ...
-        }
+~~~ .language-php
+class Service {
+    public function addUser(User $user) {
+        ...
     }
+}
 
-    $user = new User(array(
-        'firstName' => 'Andrew', 
-        'lastName' => 'Kandels'
-    ));
+$user = new User(array(
+    'firstName' => 'Andrew', 
+    'lastName' => 'Kandels'
+));
 
-    $service->addUser($user);
+$service->addUser($user);
+~~~
 
 Contain takes care of these things for you with the entity model:
 

@@ -1,0 +1,9 @@
+footer {
+  background-color: $brand-tertiary;
+  .container {
+    height: 100px;
+    padding: 1em 0.5em;
+    @include box-sizing(border-box);
+    color: $brand-white;
+  }
+}

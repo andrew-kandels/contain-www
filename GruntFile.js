@@ -46,7 +46,8 @@ module.exports = function(grunt) {
                     'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/scrollspy.js',
                     'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js',
                     'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/tooltip.js',
-                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/popover.js'
+                    'vendor/twbs/bootstrap-sass/vendor/assets/javascripts/bootstrap/popover.js',
+                    'js/prism.js'
                 ],
                 dest: 'public/js/script.min.js'
             }

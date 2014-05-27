@@ -1406,10 +1406,10 @@ html {
 
 /* line 27, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
   line-height: 1.42857;
-  color: #333333;
+  color: #405c00;
   background-color: white;
 }
 
@@ -1425,12 +1425,12 @@ textarea {
 
 /* line 48, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #428bca;
+  color: #193441;
   text-decoration: none;
 }
 /* line 53, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #2a6496;
+  color: #04080a;
   text-decoration: underline;
 }
 /* line 58, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1484,10 +1484,10 @@ img {
 
 /* line 113, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 22px;
+  margin-bottom: 22px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #f1ffcf;
 }
 
 /* line 125, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1515,7 +1515,7 @@ hr {
 /* line 10, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Signika", sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1537,15 +1537,15 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #bfff29;
 }
 
 /* line 26, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 22px;
+  margin-bottom: 11px;
 }
 /* line 31, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1 small,
@@ -1564,8 +1564,8 @@ h3 .small, .h3 small,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 /* line 42, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h4 small,
@@ -1582,50 +1582,50 @@ h6 .small, .h6 small,
 
 /* line 47, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1 {
-  font-size: 36px;
+  font-size: 41px;
 }
 
 /* line 48, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h2, .h2 {
-  font-size: 30px;
+  font-size: 34px;
 }
 
 /* line 49, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h3, .h3 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 /* line 50, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h4, .h4 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* line 51, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h5, .h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* line 52, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 h6, .h6 {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* line 58, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 p {
-  margin: 0 0 10px;
+  margin: 0 0 11px;
 }
 
 /* line 62, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 .lead {
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 22px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   /* line 62, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
   .lead {
-    font-size: 21px;
+    font-size: 24px;
   }
 }
 
@@ -1669,17 +1669,17 @@ mark,
 
 /* line 101, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 .text-muted {
-  color: #999999;
+  color: #bfff29;
 }
 
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #428bca;
+  color: #193441;
 }
 
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #3071a9;
+  color: #0b171c;
 }
 
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -1729,12 +1729,12 @@ a.text-danger:hover {
 
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #428bca;
+  background-color: #193441;
 }
 
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #3071a9;
+  background-color: #0b171c;
 }
 
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
@@ -1779,16 +1779,16 @@ a.bg-danger:hover {
 
 /* line 137, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  margin: 44px 0 22px;
+  border-bottom: 1px solid #f1ffcf;
 }
 
 /* line 149, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 /* line 153, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 ul ul,
@@ -1818,7 +1818,7 @@ ol ol {
 /* line 179, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 dl {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 /* line 184, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
@@ -1867,7 +1867,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #999999;
+  border-bottom: 1px dotted #bfff29;
 }
 
 /* line 229, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
@@ -1878,10 +1878,10 @@ abbr[data-original-title] {
 
 /* line 235, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 17.5px;
-  border-left: 5px solid #eeeeee;
+  padding: 11px 22px;
+  margin: 0 0 22px;
+  font-size: 20px;
+  border-left: 5px solid #f1ffcf;
 }
 /* line 244, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 blockquote p:last-child,
@@ -1896,7 +1896,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857;
-  color: #999999;
+  color: #bfff29;
 }
 /* line 259, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 blockquote footer:before,
@@ -1910,7 +1910,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #f1ffcf;
   border-left: 0;
   text-align: right;
 }
@@ -1941,7 +1941,7 @@ blockquote:after {
 
 /* line 294, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss */
 address {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   font-style: normal;
   line-height: 1.42857;
 }
@@ -1976,13 +1976,13 @@ kbd {
 /* line 34, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_code.scss */
 pre {
   display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
+  padding: 10.5px;
+  margin: 0 0 11px;
+  font-size: 15px;
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
+  color: #405c00;
   background-color: whitesmoke;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -3135,7 +3135,7 @@ th {
 /* line 17, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 /* line 26, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table > thead > tr > th,
@@ -3332,7 +3332,7 @@ table th[class*="col-"] {
   /* line 171, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 16.5px;
     overflow-y: hidden;
     overflow-x: scroll;
     -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -3396,10 +3396,10 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
-  font-size: 21px;
+  margin-bottom: 22px;
+  font-size: 24px;
   line-height: inherit;
-  color: #333333;
+  color: #405c00;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -3457,20 +3457,20 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857;
-  color: #555555;
+  color: #689400;
 }
 
 /* line 115, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: 36px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857;
-  color: #555555;
+  color: #689400;
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
@@ -3490,21 +3490,21 @@ output {
 }
 /* line 102, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-moz-placeholder {
-  color: #999999;
+  color: #bfff29;
   opacity: 1;
 }
 /* line 104, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control:-ms-input-placeholder {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 105, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-webkit-input-placeholder {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 143, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
   cursor: not-allowed;
-  background-color: #eeeeee;
+  background-color: #f1ffcf;
   opacity: 1;
 }
 
@@ -3523,7 +3523,7 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
-  line-height: 34px;
+  line-height: 36px;
   line-height: 1.42857 \0;
 }
 /* line 184, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
@@ -3542,7 +3542,7 @@ input[type="month"].input-sm,
 .input-group-sm > input[type="month"].form-control,
 .input-group-sm > input[type="month"].input-group-addon,
 .input-group-sm > .input-group-btn > input[type="month"].btn {
-  line-height: 30px;
+  line-height: 33px;
 }
 /* line 187, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
@@ -3560,7 +3560,7 @@ input[type="month"].input-lg,
 .input-group-lg > input[type="month"].form-control,
 .input-group-lg > input[type="month"].input-group-addon,
 .input-group-lg > .input-group-btn > input[type="month"].btn {
-  line-height: 46px;
+  line-height: 49px;
 }
 
 /* line 198, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
@@ -3572,7 +3572,7 @@ input[type="month"].input-lg,
 .radio,
 .checkbox {
   display: block;
-  min-height: 20px;
+  min-height: 22px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3637,9 +3637,9 @@ input[type="checkbox"],
 .input-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
-  height: 30px;
+  height: 33px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -3648,8 +3648,8 @@ input[type="checkbox"],
 select.input-sm, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
 .input-group-sm > .input-group-btn > select.btn {
-  height: 30px;
-  line-height: 30px;
+  height: 33px;
+  line-height: 33px;
 }
 
 /* line 81, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -3667,9 +3667,9 @@ select[multiple].input-sm,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 46px;
+  height: 49px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.33;
   border-radius: 6px;
 }
@@ -3678,8 +3678,8 @@ select[multiple].input-sm,
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn {
-  height: 46px;
-  line-height: 46px;
+  height: 49px;
+  line-height: 49px;
 }
 
 /* line 81, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -3699,19 +3699,19 @@ select[multiple].input-lg,
 }
 /* line 284, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback .form-control {
-  padding-right: 42.5px;
+  padding-right: 45px;
 }
 
 /* line 289, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-control-feedback {
   position: absolute;
-  top: 25px;
+  top: 27px;
   right: 0;
   z-index: 2;
   display: block;
-  width: 34px;
-  height: 34px;
-  line-height: 34px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
   text-align: center;
 }
 
@@ -3719,18 +3719,18 @@ select[multiple].input-lg,
 .input-lg + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
 .input-group-lg > .input-group-addon + .form-control-feedback,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback {
-  width: 46px;
-  height: 46px;
-  line-height: 46px;
+  width: 49px;
+  height: 49px;
+  line-height: 49px;
 }
 
 /* line 305, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
 }
 
 /* line 13, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -3844,7 +3844,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #9adc00;
 }
 
 @media (min-width: 768px) {
@@ -3917,7 +3917,7 @@ select[multiple].input-lg,
 /* line 452, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 27px;
+  min-height: 29px;
 }
 /* line 457, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group {
@@ -3964,7 +3964,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -4030,14 +4030,14 @@ select[multiple].input-lg,
 /* line 60, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: white;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #193441;
+  border-color: #12252f;
 }
 /* line 15, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: white;
-  background-color: #3071a9;
-  border-color: #285e8e;
+  background-color: #0b171c;
+  border-color: #010202;
 }
 /* line 22, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -4045,26 +4045,26 @@ select[multiple].input-lg,
 }
 /* line 32, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #193441;
+  border-color: #12252f;
 }
 /* line 38, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #428bca;
+  color: #193441;
   background-color: white;
 }
 
 /* line 64, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-success {
   color: white;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #91aa9d;
+  border-color: #839f90;
 }
 /* line 15, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   color: white;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #749483;
+  border-color: #648172;
 }
 /* line 22, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
@@ -4072,26 +4072,26 @@ select[multiple].input-lg,
 }
 /* line 32, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #91aa9d;
+  border-color: #839f90;
 }
 /* line 38, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success .badge {
-  color: #5cb85c;
+  color: #91aa9d;
   background-color: white;
 }
 
 /* line 68, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: white;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #d1dbbd;
+  border-color: #c5d2ad;
 }
 /* line 15, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
   color: white;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #bac99c;
+  border-color: #aabc85;
 }
 /* line 22, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
@@ -4099,26 +4099,26 @@ select[multiple].input-lg,
 }
 /* line 32, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #d1dbbd;
+  border-color: #c5d2ad;
 }
 /* line 38, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info .badge {
-  color: #5bc0de;
+  color: #d1dbbd;
   background-color: white;
 }
 
 /* line 72, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning {
   color: white;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #e08f23;
+  border-color: #cd811d;
 }
 /* line 15, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
   color: white;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #b6731a;
+  border-color: #975f15;
 }
 /* line 22, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
@@ -4126,26 +4126,26 @@ select[multiple].input-lg,
 }
 /* line 32, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #e08f23;
+  border-color: #cd811d;
 }
 /* line 38, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning .badge {
-  color: #f0ad4e;
+  color: #e08f23;
   background-color: white;
 }
 
 /* line 76, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
   color: white;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #b22e2f;
+  border-color: #9e292a;
 }
 /* line 15, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
   color: white;
-  background-color: #c9302c;
-  border-color: #ac2925;
+  background-color: #892424;
+  border-color: #6d1c1d;
 }
 /* line 22, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
@@ -4153,18 +4153,18 @@ select[multiple].input-lg,
 }
 /* line 32, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #b22e2f;
+  border-color: #9e292a;
 }
 /* line 38, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger .badge {
-  color: #d9534f;
+  color: #b22e2f;
   background-color: white;
 }
 
 /* line 85, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #428bca;
+  color: #193441;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4181,20 +4181,20 @@ select[multiple].input-lg,
 }
 /* line 105, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #2a6496;
+  color: #04080a;
   text-decoration: underline;
   background-color: transparent;
 }
 /* line 113, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
-  color: #999999;
+  color: #bfff29;
   text-decoration: none;
 }
 
 /* line 124, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.33;
   border-radius: 6px;
 }
@@ -4202,7 +4202,7 @@ select[multiple].input-lg,
 /* line 128, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -4210,7 +4210,7 @@ select[multiple].input-lg,
 /* line 132, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -4310,7 +4310,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
   background-color: white;
   border: 1px solid #cccccc;
@@ -4328,7 +4328,7 @@ tbody.collapse.in {
 /* line 58, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu .divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 10px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4339,14 +4339,14 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857;
-  color: #333333;
+  color: #405c00;
   white-space: nowrap;
 }
 
 /* line 77, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #2f4300;
   background-color: whitesmoke;
 }
 
@@ -4355,12 +4355,12 @@ tbody.collapse.in {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #428bca;
+  background-color: #193441;
 }
 
 /* line 103, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
-  color: #999999;
+  color: #bfff29;
 }
 
 /* line 110, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -4397,9 +4397,9 @@ tbody.collapse.in {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.42857;
-  color: #999999;
+  color: #bfff29;
 }
 
 /* line 161, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -4733,12 +4733,12 @@ tbody.collapse.in {
 /* line 73, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #689400;
   text-align: center;
-  background-color: #eeeeee;
+  background-color: #f1ffcf;
   border: 1px solid #cccccc;
   border-radius: 4px;
 }
@@ -4747,7 +4747,7 @@ tbody.collapse.in {
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .input-group-addon.btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 3px;
 }
 /* line 90, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
@@ -4755,7 +4755,7 @@ tbody.collapse.in {
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 6px;
 }
 /* line 98, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
@@ -4856,28 +4856,28 @@ tbody.collapse.in {
 /* line 24, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #f1ffcf;
 }
 /* line 31, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li.disabled > a {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 35, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-  color: #999999;
+  color: #bfff29;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
 /* line 48, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #eeeeee;
-  border-color: #428bca;
+  background-color: #f1ffcf;
+  border-color: #193441;
 }
 /* line 59, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 10px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4904,11 +4904,11 @@ tbody.collapse.in {
 }
 /* line 89, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+  border-color: #f1ffcf #f1ffcf #dddddd;
 }
 /* line 98, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #689400;
   background-color: white;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
@@ -4930,7 +4930,7 @@ tbody.collapse.in {
 /* line 133, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: white;
-  background-color: #428bca;
+  background-color: #193441;
 }
 
 /* line 144, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss */
@@ -5026,7 +5026,7 @@ tbody.collapse.in {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   border: 1px solid transparent;
 }
 /* line 15, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -5184,9 +5184,9 @@ tbody.collapse.in {
 /* line 163, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+  padding: 14px 15px;
+  font-size: 20px;
+  line-height: 22px;
   height: 50px;
 }
 /* line 171, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5237,13 +5237,13 @@ tbody.collapse.in {
 
 /* line 228, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 7px -15px;
 }
 /* line 231, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  line-height: 22px;
 }
 @media (max-width: 767px) {
   /* line 239, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5263,7 +5263,7 @@ tbody.collapse.in {
   }
   /* line 251, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
+    line-height: 22px;
   }
   /* line 254, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5282,8 +5282,8 @@ tbody.collapse.in {
   }
   /* line 268, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
   /* line 274, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav.navbar-right:last-child {
@@ -5311,8 +5311,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 @media (max-width: 767px) {
   /* line 314, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5353,13 +5353,13 @@ tbody.collapse.in {
 
 /* line 358, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 /* line 361, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
 }
 /* line 364, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
@@ -5369,8 +5369,8 @@ tbody.collapse.in {
 
 /* line 374, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 @media (min-width: 768px) {
   /* line 374, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5493,7 +5493,7 @@ tbody.collapse.in {
 }
 /* line 531, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 534, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -5502,11 +5502,11 @@ tbody.collapse.in {
 }
 /* line 540, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 545, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 549, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -5556,7 +5556,7 @@ tbody.collapse.in {
   }
   /* line 609, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #999999;
+    color: #bfff29;
   }
   /* line 612, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5576,7 +5576,7 @@ tbody.collapse.in {
 }
 /* line 637, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 639, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
@@ -5584,7 +5584,7 @@ tbody.collapse.in {
 }
 /* line 644, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 647, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
@@ -5598,7 +5598,7 @@ tbody.collapse.in {
 /* line 6, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   list-style: none;
   background-color: whitesmoke;
   border-radius: 4px;
@@ -5615,14 +5615,14 @@ tbody.collapse.in {
 }
 /* line 23, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss */
 .breadcrumb > .active {
-  color: #999999;
+  color: #bfff29;
 }
 
 /* line 4, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
+  margin: 22px 0;
   border-radius: 4px;
 }
 /* line 10, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5637,7 +5637,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 1.42857;
   text-decoration: none;
-  color: #428bca;
+  color: #193441;
   background-color: white;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -5659,8 +5659,8 @@ tbody.collapse.in {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #2a6496;
-  background-color: #eeeeee;
+  color: #04080a;
+  background-color: #f1ffcf;
   border-color: #dddddd;
 }
 /* line 53, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5670,8 +5670,8 @@ tbody.collapse.in {
 .pagination > .active > span:focus {
   z-index: 2;
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #193441;
+  border-color: #193441;
   cursor: default;
 }
 /* line 68, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5681,7 +5681,7 @@ tbody.collapse.in {
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  color: #999999;
+  color: #bfff29;
   background-color: white;
   border-color: #dddddd;
   cursor: not-allowed;
@@ -5691,7 +5691,7 @@ tbody.collapse.in {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 20px;
 }
 /* line 12, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:first-child > a,
@@ -5710,7 +5710,7 @@ tbody.collapse.in {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 /* line 12, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:first-child > a,
@@ -5728,7 +5728,7 @@ tbody.collapse.in {
 /* line 6, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager {
   padding-left: 0;
-  margin: 20px 0;
+  margin: 22px 0;
   list-style: none;
   text-align: center;
 }
@@ -5758,7 +5758,7 @@ tbody.collapse.in {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #f1ffcf;
 }
 /* line 32, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager .next > a,
@@ -5775,7 +5775,7 @@ tbody.collapse.in {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #999999;
+  color: #bfff29;
   background-color: white;
   cursor: not-allowed;
 }
@@ -5812,56 +5812,56 @@ a.label:hover, a.label:focus {
 
 /* line 44, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss */
 .label-default {
-  background-color: #999999;
+  background-color: #bfff29;
 }
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-default[href]:hover, .label-default[href]:focus {
-  background-color: gray;
+  background-color: #acf500;
 }
 
 /* line 48, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #428bca;
+  background-color: #193441;
 }
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #3071a9;
+  background-color: #0b171c;
 }
 
 /* line 52, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
-  background-color: #5cb85c;
+  background-color: #91aa9d;
 }
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-success[href]:hover, .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #749483;
 }
 
 /* line 56, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
-  background-color: #5bc0de;
+  background-color: #d1dbbd;
 }
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-info[href]:hover, .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #bac99c;
 }
 
 /* line 60, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
-  background-color: #f0ad4e;
+  background-color: #e08f23;
 }
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-warning[href]:hover, .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #b6731a;
 }
 
 /* line 64, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss */
 .label-danger {
-  background-color: #d9534f;
+  background-color: #b22e2f;
 }
 /* line 8, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-danger[href]:hover, .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #892424;
 }
 
 /* line 7, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_badges.scss */
@@ -5869,14 +5869,14 @@ a.label:hover, a.label:focus {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: white;
   line-height: 1;
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;
-  background-color: #999999;
+  background-color: #bfff29;
   border-radius: 10px;
 }
 /* line 22, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_badges.scss */
@@ -5895,7 +5895,7 @@ a.label:hover, a.label:focus {
 }
 /* line 40, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_badges.scss */
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #193441;
   background-color: white;
 }
 /* line 44, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_badges.scss */
@@ -5915,7 +5915,7 @@ a.badge:hover, a.badge:focus {
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #f1ffcf;
 }
 /* line 13, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron h1,
@@ -5925,12 +5925,12 @@ a.badge:hover, a.badge:focus {
 /* line 16, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 200;
 }
 /* line 22, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron > hr {
-  border-top-color: #d5d5d5;
+  border-top-color: #e1ff9c;
 }
 /* line 26, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
 .container .jumbotron {
@@ -5954,7 +5954,7 @@ a.badge:hover, a.badge:focus {
   /* line 44, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 72px;
   }
 }
 
@@ -5962,7 +5962,7 @@ a.badge:hover, a.badge:focus {
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   line-height: 1.42857;
   background-color: white;
   border: 1px solid #dddddd;
@@ -5983,20 +5983,20 @@ a.badge:hover, a.badge:focus {
 /* line 27, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #405c00;
 }
 
 /* line 36, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #428bca;
+  border-color: #193441;
 }
 
 /* line 9, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -6106,8 +6106,8 @@ a.thumbnail.active {
 /* line 20, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress {
   overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
+  height: 22px;
+  margin-bottom: 22px;
   background-color: whitesmoke;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -6119,11 +6119,11 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 22px;
   color: white;
   text-align: center;
-  background-color: #428bca;
+  background-color: #193441;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6152,7 +6152,7 @@ a.thumbnail.active {
 }
 /* line 61, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar[aria-valuenow="0"] {
-  color: #999999;
+  color: #bfff29;
   min-width: 30px;
   background-color: transparent;
   background-image: none;
@@ -6161,7 +6161,7 @@ a.thumbnail.active {
 
 /* line 75, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-success {
-  background-color: #5cb85c;
+  background-color: #91aa9d;
 }
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-success {
@@ -6172,7 +6172,7 @@ a.thumbnail.active {
 
 /* line 79, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #d1dbbd;
 }
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-info {
@@ -6183,7 +6183,7 @@ a.thumbnail.active {
 
 /* line 83, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #e08f23;
 }
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-warning {
@@ -6194,7 +6194,7 @@ a.thumbnail.active {
 
 /* line 87, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #b22e2f;
 }
 /* line 5, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-danger {
@@ -6298,8 +6298,8 @@ a.list-group-item:hover, a.list-group-item:focus {
 
 /* line 74, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
-  background-color: #eeeeee;
-  color: #999999;
+  background-color: #f1ffcf;
+  color: #bfff29;
 }
 /* line 79, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading {
@@ -6307,14 +6307,14 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 /* line 82, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
-  color: #999999;
+  color: #bfff29;
 }
 /* line 90, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #193441;
+  border-color: #193441;
 }
 /* line 97, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-heading, .list-group-item.active:hover .list-group-item-heading, .list-group-item.active:focus .list-group-item-heading {
@@ -6322,7 +6322,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 /* line 100, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #e1edf7;
+  color: #63a4c3;
 }
 
 /* line 4, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -6443,7 +6443,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 /* line 7, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   background-color: white;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -6481,7 +6481,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
   color: inherit;
 }
 /* line 39, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss */
@@ -6661,7 +6661,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 /* line 195, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 /* line 199, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel {
@@ -6695,7 +6695,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 /* line 6, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading {
-  color: #333333;
+  color: #405c00;
   background-color: whitesmoke;
   border-color: #dddddd;
 }
@@ -6710,21 +6710,21 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 /* line 226, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #428bca;
+  border-color: #193441;
 }
 /* line 6, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #193441;
+  border-color: #193441;
 }
 /* line 11, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #428bca;
+  border-top-color: #193441;
 }
 /* line 16, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #428bca;
+  border-bottom-color: #193441;
 }
 
 /* line 229, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss */
@@ -6865,7 +6865,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 6, /var/www/contain-php.org/vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_close.scss */
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: bold;
   line-height: 1;
   color: black;
@@ -7062,7 +7062,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -7214,7 +7214,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
@@ -10041,4 +10041,361 @@ button.close {
 /* line 412, ../../sass/font-awesome/_icons.scss */
 .fa-plus-square-o:before {
   content: "\f196";
+}
+
+/* http://prismjs.com/download.html?themes=prism-coy&languages=clike+javascript+php+php-extras+sql&plugins=line-highlight+line-numbers */
+/**
+ * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
+ * @author Tim  Shedor
+ */
+/* line 9, ../../sass/_prism.scss */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: black;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+/* line 29, ../../sass/_prism.scss */
+pre[class*="language-"] {
+  position: relative;
+  padding: 1em;
+  margin: .5em 0;
+  -webkit-box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+  -moz-box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+  box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+  border-left: 10px solid #358ccb;
+  background-color: #fdfdfd;
+  background-image: -webkit-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+  background-image: -moz-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+  background-image: -ms-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+  background-image: -o-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+  background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+  background-size: 3em 3em;
+  background-origin: content-box;
+  overflow: visible;
+  max-height: 30em;
+}
+
+/* line 49, ../../sass/_prism.scss */
+code[class*="language"] {
+  max-height: 29em;
+  display: block;
+  overflow: auto;
+}
+
+/* Margin bottom to accomodate shadow */
+/* line 57, ../../sass/_prism.scss */
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #fdfdfd;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+/* Inline code */
+/* line 66, ../../sass/_prism.scss */
+:not(pre) > code[class*="language-"] {
+  position: relative;
+  padding: .2em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  color: #c92c2c;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 79, ../../sass/_prism.scss */
+pre[class*="language-"]:before,
+pre[class*="language-"]:after {
+  content: '';
+  z-index: -2;
+  display: block;
+  position: absolute;
+  bottom: 0.75em;
+  left: 0.18em;
+  width: 40%;
+  height: 20%;
+  -webkit-box-shadow: 0px 13px 8px #979797;
+  -moz-box-shadow: 0px 13px 8px #979797;
+  box-shadow: 0px 13px 8px #979797;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+/* line 99, ../../sass/_prism.scss */
+:not(pre) > code[class*="language-"]:after,
+pre[class*="language-"]:after {
+  right: 0.75em;
+  left: auto;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+/* line 113, ../../sass/_prism.scss */
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #7D8B99;
+}
+
+/* line 117, ../../sass/_prism.scss */
+.token.punctuation {
+  color: #5F6364;
+}
+
+/* line 127, ../../sass/_prism.scss */
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.function-name,
+.token.constant,
+.token.symbol {
+  color: #c92c2c;
+}
+
+/* line 135, ../../sass/_prism.scss */
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.function,
+.token.builtin {
+  color: #2f9c0a;
+}
+
+/* line 142, ../../sass/_prism.scss */
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+  color: #a67f59;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 150, ../../sass/_prism.scss */
+.token.atrule,
+.token.attr-value,
+.token.keyword,
+.token.class-name {
+  color: #1990b8;
+}
+
+/* line 155, ../../sass/_prism.scss */
+.token.regex,
+.token.important {
+  color: #e90;
+}
+
+/* line 159, ../../sass/_prism.scss */
+.language-css .token.string,
+.style .token.string {
+  color: #a67f59;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 164, ../../sass/_prism.scss */
+.token.important {
+  font-weight: normal;
+}
+
+/* line 168, ../../sass/_prism.scss */
+.token.entity {
+  cursor: help;
+}
+
+/* line 172, ../../sass/_prism.scss */
+.namespace {
+  opacity: .7;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 178, ../../sass/_prism.scss */
+  pre[class*="language-"]:before,
+  pre[class*="language-"]:after {
+    bottom: 14px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+/* Plugin styles */
+/* line 190, ../../sass/_prism.scss */
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before {
+  color: #e0d7d1;
+}
+
+/* line 194, ../../sass/_prism.scss */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+
+/* line 199, ../../sass/_prism.scss */
+.line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  /* Same as .prismâs padding-top */
+  background: rgba(153, 122, 102, 0.08);
+  background: -moz-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+  background: -webkit-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+  background: -o-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+  background: linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+/* line 219, ../../sass/_prism.scss */
+.line-highlight:before,
+.line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: rgba(153, 122, 102, 0.4);
+  color: #f5f2f0;
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+/* line 236, ../../sass/_prism.scss */
+.line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}
+
+/* line 241, ../../sass/_prism.scss */
+pre.line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber;
+}
+
+/* line 247, ../../sass/_prism.scss */
+pre.line-numbers > code {
+  position: relative;
+}
+
+/* line 251, ../../sass/_prism.scss */
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em;
+  /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 268, ../../sass/_prism.scss */
+.line-numbers-rows > span {
+  pointer-events: none;
+  display: block;
+  counter-increment: linenumber;
+}
+
+/* line 274, ../../sass/_prism.scss */
+.line-numbers-rows > span:before {
+  content: counter(linenumber);
+  color: #999;
+  display: block;
+  padding-right: 0.8em;
+  text-align: right;
+}
+
+/* line 1, ../../sass/_header.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../../sass/_header.scss */
+body {
+  background-color: #fcfff5;
+  background-image: linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+  background-size: 30px 30px;
+}
+
+/* line 11, ../../sass/_header.scss */
+.page-container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 50px;
+  /* the bottom margin is the negative value of the footer's height */
+}
+
+/* line 18, ../../sass/_header.scss */
+.navbar-static-top {
+  background-color: #91aa9d;
+}
+/* line 20, ../../sass/_header.scss */
+.navbar-static-top .navbar-brand {
+  font-family: "Signika", sans-serif;
+  font-size: 34px;
+}
+/* line 24, ../../sass/_header.scss */
+.navbar-static-top .navbar-nav .active {
+  background-color: #3e606f;
+}
+/* line 26, ../../sass/_header.scss */
+.navbar-static-top .navbar-nav .active > a {
+  color: #fcfff5;
+}
+
+/* line 1, ../../sass/_footer.scss */
+footer {
+  background-color: #91aa9d;
+}
+/* line 3, ../../sass/_footer.scss */
+footer .container {
+  height: 100px;
+  padding: 1em 0.5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fcfff5;
 }
